@@ -1,0 +1,44 @@
+
+
+#tarea{
+  color: snow;
+  margin: 5px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(30, 30, 30);
+}
+
+#boton {
+  background: white;
+  cursor: pointer;
+  font-size: .8em;
+  margin: 1em;
+  padding: 4px 12px;
+  border: 1px solid #09f;
+  border-radius: 5px;
+  color: black;
+  width: 100px;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(93, 3, 3, 0.312);
+  border-radius: 20px;
+  margin-top: 15px;
+  label{
+    color: snow;
+    text-transform: uppercase;
+  }
+
+}
